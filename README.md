@@ -1,1 +1,431 @@
-# Awesome-Debugging-DevTools
+# 📚 Awesome Debugging Book & Course: Web Debugging with Chrome DevTools (Debugging)
+
+![Promotional image](images/promotional.png)
+
+## ❣️ Support
+
+There are many ways to support us; in exchange, you'll get this material in a proper format:
+
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/TODO),
+- ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/course/TODO),
+- 🆓 [Shorter, but free, part of our Udemy course is available on YouTube](https://www.youtube.com/playlist?list=TODO),
+- 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too)](https://www.amazon.com/dp/TODO),
+- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=TODO),
+- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/TODO),
+- 🛒 [eBay, in PDF format](https://www.ebay.com/itm/TODO),
+- 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
+
+💰 If you work for a company, you could probably easily claim this expense while learning this topic. For us, it's about being in the game or not.
+
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
+
+## ✨ This book & course is unlike any Web Debugging with Chrome DevTools (Debugging) book & course you will find online.
+
+✋ Join a live online community and a book & course taught by industry experts and learn about Debugging. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
+## ⌛️ Short and to the point; why should you take the book & course:
+
+1. Always happy to answer your questions 😊
+2. Unhappy? Please raise a refund; we'll always accept it 💸
+3. Learn about topics, such as 😱
+   - Introduction to Debugging:
+     - What is Debugging?;
+     - Chrome DevTools as the Spine of This Book;
+   - History and Evolution of Web Debugging:
+     - From Alert and Print to Interactive Debuggers;
+     - The Generative AI Era;
+   - Core Principles of Debugging:
+     - Form a Hypothesis Before You Touch a Tool;
+     - Reproduce First, Then Narrow;
+   - Setting Up Your Debugging Environment:
+     - Google Chrome for Debugging;
+     - Visual Studio Code;
+     - Cursor;
+   - Chrome DevTools: Elements, Styles, and the DOM;
+   - Chrome DevTools: Console;
+   - Chrome DevTools: Sources, Breakpoints, and Source Maps;
+   - Chrome DevTools: Network;
+   - Chrome DevTools: Performance, Memory, and Core Web Vitals;
+   - Chrome DevTools: Application, Security, and Device Tooling;
+   - Chrome DevTools: Accessibility;
+   - Chrome DevTools Extensions and Plugins:
+     - React Developer Tools;
+     - Redux DevTools;
+   - Debugging in Visual Studio Code;
+   - Debugging in Cursor;
+   - Interview and Live-Coding Debugging Without AI;
+   - Debugging with Generative AI:
+     - Gemini in Chrome DevTools;
+     - Chrome DevTools for Agents;
+   - Common Challenges and Debugging Tips;
+   - Additional Resources and Reading Materials;
+   - **Much More!**
+4. Real Life examples ✅
+5. The book & course explains the topic fully in-depth 🔬
+
+## ☝️ Book & Course Updates
+
+**[v1.0.0](../../releases/tag/v1.0.0): TBD.**
+
+- Launch of the book.
+
+## 🙋‍♀️ & 🙋‍♂️ Contribution
+
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
+
+## Who this book & course is for:
+
+- 👨‍🎓 Enthusiasts of practical education;
+- 👨‍🎓 Everyone who has heard about Chrome DevTools and would like to know more;
+- 👨‍🎓 Professionalists daily working with technology who want to debug real web apps without burnout;
+- 👨‍🎓 Sceptical Developers about a book & course solely focused on Debugging;
+- 👨‍🎓 Self-paced Learners for whom expensive Bootcamps are unaffordable;
+- 👨‍🎓 Students interested in Web Development;
+- 👨‍🎓 Students preparing for live-coding interviews where AI and the internet are forbidden;
+- 👨‍🎓 Specialists willing to know A to Z about Web Debugging with Chrome DevTools;
+
+## Requirements
+
+- 🤩 Excitement to learn!
+- 0️⃣ Prior knowledge is required;
+- ✅ You can learn Web Debugging with Chrome DevTools (Debugging) solely based on our book & course.
+
+## Table of Contents
+
+- [Introduction to Debugging](#introduction-to-debugging)
+  - [What is Debugging?](#what-is-debugging)
+    - [Debugging vs Testing vs Monitoring](#debugging-vs-testing-vs-monitoring)
+    - [The Debugging Loop: Reproduce, Isolate, Fix, Verify](#the-debugging-loop-reproduce-isolate-fix-verify)
+  - [Why Web Debugging Is Different](#why-web-debugging-is-different)
+    - [Client, Server, Network, and the Browser as a Runtime](#client-server-network-and-the-browser-as-a-runtime)
+    - [Source Maps, Bundlers, and What You Actually Run](#source-maps-bundlers-and-what-you-actually-run)
+  - [Chrome DevTools as the Spine of This Book](#chrome-devtools-as-the-spine-of-this-book)
+    - [What This Book Covers](#what-this-book-covers)
+    - [What This Book Skips](#what-this-book-skips)
+  - [How to Use This Book and Course](#how-to-use-this-book-and-course)
+    - [Traditional Debugging First, Generative AI Second](#traditional-debugging-first-generative-ai-second)
+    - [When Interviews Forbid Tools, AI, and the Internet](#when-interviews-forbid-tools-ai-and-the-internet)
+  - [Summary: Introduction to Debugging](#summary-introduction-to-debugging)
+- [History and Evolution of Web Debugging](#history-and-evolution-of-web-debugging)
+  - [From Alert and Print to Interactive Debuggers](#from-alert-and-print-to-interactive-debuggers)
+    - [Firebug, the Inspector, and Why Chrome DevTools Won](#firebug-the-inspector-and-why-chrome-devtools-won)
+    - [Key Milestones in Chrome DevTools](#key-milestones-in-chrome-devtools)
+  - [The Framework Era](#the-framework-era)
+    - [Why the DOM Is No Longer Enough](#why-the-dom-is-no-longer-enough)
+    - [How Framework DevTools Extensions Changed Daily Work](#how-framework-devtools-extensions-changed-daily-work)
+  - [The Editor Era](#the-editor-era)
+    - [Visual Studio Code as a Debugger Host](#visual-studio-code-as-a-debugger-host)
+    - [Cursor and AI-Native Editing](#cursor-and-ai-native-editing)
+  - [The Generative AI Era](#the-generative-ai-era)
+    - [Gemini in Chrome DevTools](#gemini-in-chrome-devtools)
+    - [DevTools for Agents and Model Context Protocol](#devtools-for-agents-and-model-context-protocol)
+  - [Summary: History and Evolution of Web Debugging](#summary-history-and-evolution-of-web-debugging)
+- [Core Principles of Debugging](#core-principles-of-debugging)
+  - [Form a Hypothesis Before You Touch a Tool](#form-a-hypothesis-before-you-touch-a-tool)
+  - [Reproduce First, Then Narrow](#reproduce-first-then-narrow)
+    - [Minimal Reproductions](#minimal-reproductions)
+    - [Example: Shrink a Failing Page to One File](#example-shrink-a-failing-page-to-one-file)
+  - [Read the Error You Actually Have](#read-the-error-you-actually-have)
+    - [Stack Traces, Source Maps, and Original Positions](#stack-traces-source-maps-and-original-positions)
+    - [Example: Map a Minified Stack Frame Back to Source](#example-map-a-minified-stack-frame-back-to-source)
+  - [Change One Variable at a Time](#change-one-variable-at-a-time)
+  - [Verify the Fix and Watch for Regressions](#verify-the-fix-and-watch-for-regressions)
+  - [When Logging Beats a Breakpoint, and When It Does Not](#when-logging-beats-a-breakpoint-and-when-it-does-not)
+  - [Summary: Core Principles of Debugging](#summary-core-principles-of-debugging)
+- [Setting Up Your Debugging Environment](#setting-up-your-debugging-environment)
+  - [Google Chrome for Debugging](#google-chrome-for-debugging)
+    - [Stable, Beta, Dev, and Canary](#stable-beta-dev-and-canary)
+    - [A Clean Profile for Debugging](#a-clean-profile-for-debugging)
+    - [Opening Chrome DevTools](#opening-chrome-devtools)
+    - [Docking, Undocking, and the Command Menu](#docking-undocking-and-the-command-menu)
+    - [Keyboard Shortcuts You Will Use Daily](#keyboard-shortcuts-you-will-use-daily)
+  - [Visual Studio Code](#visual-studio-code)
+    - [Installing Visual Studio Code](#installing-visual-studio-code)
+    - [The Run and Debug View](#the-run-and-debug-view)
+    - [launch.json and tasks.json Without Copy-Paste Magic](#launchjson-and-tasksjson-without-copy-paste-magic)
+  - [Cursor](#cursor)
+    - [How Cursor Relates to Visual Studio Code](#how-cursor-relates-to-visual-studio-code)
+    - [When to Stay in Cursor vs Jump to Chrome](#when-to-stay-in-cursor-vs-jump-to-chrome)
+  - [Local Dev Servers and HTTPS](#local-dev-servers-and-https)
+    - [localhost, HTTPS, Mixed Content, and Cookies](#localhost-https-mixed-content-and-cookies)
+  - [When It Is Not Chrome](#when-it-is-not-chrome)
+    - [Microsoft Edge and Other Chromium Browsers](#microsoft-edge-and-other-chromium-browsers)
+    - [Firefox Developer Tools](#firefox-developer-tools)
+    - [Safari Web Inspector](#safari-web-inspector)
+  - [Summary: Setting Up Your Debugging Environment](#summary-setting-up-your-debugging-environment)
+- [Chrome DevTools: Elements, Styles, and the DOM](#chrome-devtools-elements-styles-and-the-dom)
+  - [Inspecting the Live DOM](#inspecting-the-live-dom)
+    - [Selecting Nodes and Jumping from Page to Tree](#selecting-nodes-and-jumping-from-page-to-tree)
+    - [Editing HTML in Place](#editing-html-in-place)
+    - [Example: Find Why a Node Is Missing from the Tree](#example-find-why-a-node-is-missing-from-the-tree)
+  - [CSS in the Styles Pane](#css-in-the-styles-pane)
+    - [Computed Styles vs Authored Styles](#computed-styles-vs-authored-styles)
+    - [Invalid, Overridden, Inactive, and Inherited CSS](#invalid-overridden-inactive-and-inherited-css)
+    - [Specificity, Cascade Layers, and !important](#specificity-cascade-layers-and-important)
+    - [Color, Shadow, and Transition Editors](#color-shadow-and-transition-editors)
+    - [Example: Trace a Button Color Through the Cascade](#example-trace-a-button-color-through-the-cascade)
+  - [Box Model, Flex, and Grid Overlays](#box-model-flex-and-grid-overlays)
+  - [Emulating User Preference and Media](#emulating-user-preference-and-media)
+    - [Forced Colors, Dark Mode, Print, and Reduced Motion](#forced-colors-dark-mode-print-and-reduced-motion)
+  - [Changes, Animations, and Rendering](#changes-animations-and-rendering)
+    - [Tracking Edits in the Changes Drawer](#tracking-edits-in-the-changes-drawer)
+    - [Inspecting and Slowing Animations](#inspecting-and-slowing-animations)
+    - [Paint Flashing, Layer Borders, and Layout Shift Regions](#paint-flashing-layer-borders-and-layout-shift-regions)
+  - [CSS Overview](#css-overview)
+  - [Where Accessibility Debugging Continues](#where-accessibility-debugging-continues)
+  - [Summary: Chrome DevTools: Elements, Styles, and the DOM](#summary-chrome-devtools-elements-styles-and-the-dom)
+- [Chrome DevTools: Console](#chrome-devtools-console)
+  - [Reading What the Page Already Logs](#reading-what-the-page-already-logs)
+    - [Log Levels, Filtering, and Message Groups](#log-levels-filtering-and-message-groups)
+    - [Stack Traces from console.error](#stack-traces-from-consoleerror)
+  - [The Console API You Should Actually Use](#the-console-api-you-should-actually-use)
+    - [log, table, dir, group, time, trace, and assert](#log-table-dir-group-time-trace-and-assert)
+    - [Example: Replace Scattershot Logs with console.table](#example-replace-scattershot-logs-with-consoletable)
+  - [Live Expressions and $ Utilities](#live-expressions-and--utilities)
+    - [$0, $_, copy, and query-selector Shortcuts](#0-_-copy-and-query-selector-shortcuts)
+  - [Snippets vs One-Off Evaluation](#snippets-vs-one-off-evaluation)
+  - [Console Insights for Errors and Warnings](#console-insights-for-errors-and-warnings)
+  - [When the Console Lies](#when-the-console-lies)
+    - [Asynchronous Logs, Object Mutation, and Eager Evaluation](#asynchronous-logs-object-mutation-and-eager-evaluation)
+  - [Summary: Chrome DevTools: Console](#summary-chrome-devtools-console)
+- [Chrome DevTools: Sources, Breakpoints, and Source Maps](#chrome-devtools-sources-breakpoints-and-source-maps)
+  - [The Sources Panel](#the-sources-panel)
+    - [Page, Workspace, Overrides, and Content Scripts](#page-workspace-overrides-and-content-scripts)
+    - [Pretty-Print, Blackbox, and Ignore Lists](#pretty-print-blackbox-and-ignore-lists)
+  - [Pause Your Code with Breakpoints](#pause-your-code-with-breakpoints)
+    - [Line-of-Code Breakpoints](#line-of-code-breakpoints)
+    - [Conditional and Logpoint Breakpoints](#conditional-and-logpoint-breakpoints)
+    - [DOM, XHR/Fetch, Event Listener, and Exception Breakpoints](#dom-xhrfetch-event-listener-and-exception-breakpoints)
+    - [Example: Catch a Click Handler Without Reading the Framework](#example-catch-a-click-handler-without-reading-the-framework)
+  - [Stepping, Call Stack, and Scope](#stepping-call-stack-and-scope)
+    - [Step Over, Into, Out, and Restart Frame](#step-over-into-out-and-restart-frame)
+    - [Watch, Scope, and the Debug Console](#watch-scope-and-the-debug-console)
+    - [Example: Walk a Recursive Function in the Call Stack](#example-walk-a-recursive-function-in-the-call-stack)
+  - [Source Maps](#source-maps)
+    - [What a Source Map Is For](#what-a-source-map-is-for)
+    - [TypeScript, JSX, Bundlers, and Missing Maps](#typescript-jsx-bundlers-and-missing-maps)
+    - [Example: Fix a Broken Source Map in a Vite App](#example-fix-a-broken-source-map-in-a-vite-app)
+  - [JavaScript Snippets](#javascript-snippets)
+    - [Running a Snippet on Any Page](#running-a-snippet-on-any-page)
+    - [Example: A Reusable Snippet That Dumps Event Listeners](#example-a-reusable-snippet-that-dumps-event-listeners)
+  - [Workspaces and Local Overrides](#workspaces-and-local-overrides)
+    - [Persist Edits to Disk](#persist-edits-to-disk)
+    - [Override Headers and File Content](#override-headers-and-file-content)
+  - [Search Across All Loaded Resources](#search-across-all-loaded-resources)
+  - [Debugging Asynchronous JavaScript](#debugging-asynchronous-javascript)
+    - [Async Stack Traces, Promises, and async/await](#async-stack-traces-promises-and-asyncawait)
+    - [Workers, Worklets, and Service Workers in Sources](#workers-worklets-and-service-workers-in-sources)
+  - [Summary: Chrome DevTools: Sources, Breakpoints, and Source Maps](#summary-chrome-devtools-sources-breakpoints-and-source-maps)
+- [Chrome DevTools: Network](#chrome-devtools-network)
+  - [Inspecting Requests](#inspecting-requests)
+    - [Waterfall, Timing, and Priority](#waterfall-timing-and-priority)
+    - [Headers, Payload, Preview, and Initiator](#headers-payload-preview-and-initiator)
+    - [Example: Find Who Fired a Duplicate Fetch](#example-find-who-fired-a-duplicate-fetch)
+  - [Filtering and Throttling](#filtering-and-throttling)
+    - [By Type, Domain, and URL Pattern](#by-type-domain-and-url-pattern)
+    - [Offline, Slow 4G, and Custom Throttling](#offline-slow-4g-and-custom-throttling)
+    - [Network Conditions and User-Agent Overrides](#network-conditions-and-user-agent-overrides)
+  - [CORS, Mixed Content, and Failed Requests](#cors-mixed-content-and-failed-requests)
+    - [Reading a CORS Failure Correctly](#reading-a-cors-failure-correctly)
+    - [Example: Debug a Blocked API Call](#example-debug-a-blocked-api-call)
+  - [Rewriting the Network](#rewriting-the-network)
+    - [Local Overrides for Responses and Headers](#local-overrides-for-responses-and-headers)
+    - [Blocking Requests](#blocking-requests)
+  - [WebSockets, Server-Sent Events, and Streaming](#websockets-server-sent-events-and-streaming)
+  - [Cookies, Cache, and Disable Cache](#cookies-cache-and-disable-cache)
+  - [HAR Files for Sharing a Reproduction](#har-files-for-sharing-a-reproduction)
+  - [Summary: Chrome DevTools: Network](#summary-chrome-devtools-network)
+- [Chrome DevTools: Performance, Memory, and Core Web Vitals](#chrome-devtools-performance-memory-and-core-web-vitals)
+  - [What “Slow” Means](#what-slow-means)
+    - [Load vs Runtime vs Interaction](#load-vs-runtime-vs-interaction)
+    - [Core Web Vitals: LCP, INP, and CLS](#core-web-vitals-lcp-inp-and-cls)
+  - [The Performance Panel](#the-performance-panel)
+    - [Recording a Trace](#recording-a-trace)
+    - [CPU Throttling Calibration](#cpu-throttling-calibration)
+    - [Insights, Bottom-Up, Call Tree, and Event Log](#insights-bottom-up-call-tree-and-event-log)
+    - [Example: Find a Long Task Blocking Input](#example-find-a-long-task-blocking-input)
+  - [Lighthouse Inside Performance](#lighthouse-inside-performance)
+    - [Lab Scores vs Field Data](#lab-scores-vs-field-data)
+  - [Coverage, Unused CSS, and Unused JavaScript](#coverage-unused-css-and-unused-javascript)
+  - [The Memory Panel](#the-memory-panel)
+    - [Heap Snapshots, Allocation Sampling, and Timelines](#heap-snapshots-allocation-sampling-and-timelines)
+    - [Detached Nodes and Listener Leaks](#detached-nodes-and-listener-leaks)
+    - [Memory Inspector for ArrayBuffer Data](#memory-inspector-for-arraybuffer-data)
+    - [Example: Catch a Detached DOM Leak](#example-catch-a-detached-dom-leak)
+  - [Sharing Traces Outside Chrome](#sharing-traces-outside-chrome)
+    - [trace.cafe, speedscope, cpupro, and Perfetto](#tracecafe-speedscope-cpupro-and-perfetto)
+  - [Performance Monitor and Rendering Helpers](#performance-monitor-and-rendering-helpers)
+  - [Summary: Chrome DevTools: Performance, Memory, and Core Web Vitals](#summary-chrome-devtools-performance-memory-and-core-web-vitals)
+- [Chrome DevTools: Application, Security, and Device Tooling](#chrome-devtools-application-security-and-device-tooling)
+  - [The Application Panel](#the-application-panel)
+    - [Storage: Local, Session, IndexedDB, Cache Storage, and Cookies](#storage-local-session-indexeddb-cache-storage-and-cookies)
+    - [Service Workers and Progressive Web Apps](#service-workers-and-progressive-web-apps)
+    - [Manifest, Installability, and Background Services](#manifest-installability-and-background-services)
+    - [Example: Debug a Service Worker Serving Stale HTML](#example-debug-a-service-worker-serving-stale-html)
+  - [Privacy and Security](#privacy-and-security)
+    - [HTTPS, Certificates, and Mixed Content](#https-certificates-and-mixed-content)
+    - [Issues Drawer](#issues-drawer)
+  - [Device Mode](#device-mode)
+    - [Viewports, DPR, and Touch](#viewports-dpr-and-touch)
+    - [Sensors: Location, Orientation, and Idle](#sensors-location-orientation-and-idle)
+  - [Recorder](#recorder)
+    - [Record, Replay, and Measure User Flows](#record-replay-and-measure-user-flows)
+    - [Recorder Extensions](#recorder-extensions)
+  - [More Tools You Will Open Eventually](#more-tools-you-will-open-eventually)
+    - [Media, WebAuthn, Autofill, and Layers](#media-webauthn-autofill-and-layers)
+    - [Protocol Monitor and the Chrome DevTools Protocol](#protocol-monitor-and-the-chrome-devtools-protocol)
+  - [Summary: Chrome DevTools: Application, Security, and Device Tooling](#summary-chrome-devtools-application-security-and-device-tooling)
+- [Chrome DevTools: Accessibility](#chrome-devtools-accessibility)
+  - [Why Accessibility Bugs Are Debugging, Not a Separate Course](#why-accessibility-bugs-are-debugging-not-a-separate-course)
+    - [What the Awesome Chrome DevTools List and Typical DevTools Courses Skip](#what-the-awesome-chrome-devtools-list-and-typical-devtools-courses-skip)
+  - [The Accessibility Pane in Elements](#the-accessibility-pane-in-elements)
+    - [Accessibility Tree, Name, Role, and States](#accessibility-tree-name-role-and-states)
+    - [ARIA That Lies](#aria-that-lies)
+    - [Example: Find Why a Button Has No Accessible Name](#example-find-why-a-button-has-no-accessible-name)
+  - [Keyboard, Focus, and Order](#keyboard-focus-and-order)
+    - [Tab Stops, :focus-visible, and Skip Links](#tab-stops-focus-visible-and-skip-links)
+    - [Example: Debug a Keyboard Trap](#example-debug-a-keyboard-trap)
+  - [Vision, Motion, and Contrast](#vision-motion-and-contrast)
+    - [Emulating Vision Deficiencies in Rendering](#emulating-vision-deficiencies-in-rendering)
+    - [Contrast Issues in the Styles Pane](#contrast-issues-in-the-styles-pane)
+    - [Forced Colors and Reduced Motion](#forced-colors-and-reduced-motion)
+  - [Lighthouse Accessibility Audits](#lighthouse-accessibility-audits)
+    - [What a Score Cannot Tell You](#what-a-score-cannot-tell-you)
+  - [axe DevTools for Deeper Scans](#axe-devtools-for-deeper-scans)
+    - [Example: Fix a Contrast Failure axe Finds and Lighthouse Softens](#example-fix-a-contrast-failure-axe-finds-and-lighthouse-softens)
+  - [Screen Readers and What DevTools Cannot Simulate](#screen-readers-and-what-devtools-cannot-simulate)
+  - [When to Open the Ditectrev A11Y Book Instead](#when-to-open-the-ditectrev-a11y-book-instead)
+  - [Summary: Chrome DevTools: Accessibility](#summary-chrome-devtools-accessibility)
+- [Chrome DevTools Extensions and Plugins](#chrome-devtools-extensions-and-plugins)
+  - [What a DevTools Extension Actually Adds](#what-a-devtools-extension-actually-adds)
+    - [Panels vs Toolbar vs Page Overlays](#panels-vs-toolbar-vs-page-overlays)
+    - [When an Extension Makes Chrome Slower](#when-an-extension-makes-chrome-slower)
+  - [React Developer Tools](#react-developer-tools)
+    - [Components, Props, State, and Hooks](#components-props-state-and-hooks)
+    - [Profiler and Why a Component Re-Rendered](#profiler-and-why-a-component-re-rendered)
+    - [Example: Find an Unnecessary React Re-Render](#example-find-an-unnecessary-react-re-render)
+  - [Redux DevTools](#redux-devtools)
+    - [Actions, Diffs, and Time Travel](#actions-diffs-and-time-travel)
+    - [Zustand and Other Stores That Speak the Same Protocol](#zustand-and-other-stores-that-speak-the-same-protocol)
+  - [Vue.js DevTools](#vuejs-devtools)
+    - [Components, Pinia, Router, and Timeline](#components-pinia-router-and-timeline)
+  - [Angular DevTools](#angular-devtools)
+    - [Component Tree, Injector, Router, and Change Detection](#component-tree-injector-router-and-change-detection)
+  - [Apollo Client DevTools](#apollo-client-devtools)
+    - [Cache, Queries, Mutations, and Explorer](#cache-queries-mutations-and-explorer)
+  - [Ember Inspector and Web Component DevTools](#ember-inspector-and-web-component-devtools)
+  - [axe DevTools](#axe-devtools)
+    - [Use the Accessibility Chapter for the Workflow](#use-the-accessibility-chapter-for-the-workflow)
+  - [Requestly and Other Network Helpers](#requestly-and-other-network-helpers)
+  - [Building a Small DevTools Extension](#building-a-small-devtools-extension)
+    - [chrome.devtools Panels and the Inspected Window](#chromedevtools-panels-and-the-inspected-window)
+  - [Summary: Chrome DevTools Extensions and Plugins](#summary-chrome-devtools-extensions-and-plugins)
+- [Debugging in Visual Studio Code](#debugging-in-visual-studio-code)
+  - [The Built-in JavaScript Debugger](#the-built-in-javascript-debugger)
+    - [Attach vs Launch](#attach-vs-launch)
+    - [Chrome, Edge, Node, and Compound Configurations](#chrome-edge-node-and-compound-configurations)
+    - [Example: launch.json for a Local Web App](#example-launchjson-for-a-local-web-app)
+  - [Breakpoints in the Editor](#breakpoints-in-the-editor)
+    - [Inline Values, Watch, Debug Console, and Call Stack](#inline-values-watch-debug-console-and-call-stack)
+    - [Jumping Between VS Code and Chrome DevTools](#jumping-between-vs-code-and-chrome-devtools)
+  - [Useful Visual Studio Code Plugins for Debugging](#useful-visual-studio-code-plugins-for-debugging)
+    - [Error Lens](#error-lens)
+    - [Pretty TypeScript Errors](#pretty-typescript-errors)
+    - [Console Ninja](#console-ninja)
+    - [Quokka](#quokka)
+    - [Debug Visualizer](#debug-visualizer)
+    - [REST Client](#rest-client)
+    - [Playwright Test for VS Code](#playwright-test-for-vs-code)
+    - [Jest Runner and the Jest Debugger](#jest-runner-and-the-jest-debugger)
+  - [Node, Tests, and Full-Stack Sessions](#node-tests-and-full-stack-sessions)
+    - [Debugging a Failing Unit Test](#debugging-a-failing-unit-test)
+    - [Debugging a Failing End-to-End Test](#debugging-a-failing-end-to-end-test)
+  - [When the Editor Debugger Is the Wrong Tool](#when-the-editor-debugger-is-the-wrong-tool)
+  - [Summary: Debugging in Visual Studio Code](#summary-debugging-in-visual-studio-code)
+- [Debugging in Cursor](#debugging-in-cursor)
+  - [What Cursor Inherits from Visual Studio Code](#what-cursor-inherits-from-visual-studio-code)
+    - [The Same Debug Adapter Protocol](#the-same-debug-adapter-protocol)
+    - [Which VS Code Plugins Still Matter in Cursor](#which-vs-code-plugins-still-matter-in-cursor)
+  - [Debugging Without the Agent](#debugging-without-the-agent)
+    - [Classic Breakpoints, launch.json, and the Terminal](#classic-breakpoints-launchjson-and-the-terminal)
+  - [Chat, Inline Edit, and Agent](#chat-inline-edit-and-agent)
+    - [Giving the Agent a Repro, Logs, and a Hypothesis](#giving-the-agent-a-repro-logs-and-a-hypothesis)
+    - [Example: Walk Cursor Through a Failing Test](#example-walk-cursor-through-a-failing-test)
+  - [Browser and DevTools Context in Cursor](#browser-and-devtools-context-in-cursor)
+    - [Attaching Chrome DevTools Data to an Agent Turn](#attaching-chrome-devtools-data-to-an-agent-turn)
+  - [Rules, Not Magic](#rules-not-magic)
+    - [When Cursor Is Faster Than DevTools](#when-cursor-is-faster-than-devtools)
+    - [When You Must Leave the Agent and Open the Debugger](#when-you-must-leave-the-agent-and-open-the-debugger)
+  - [Summary: Debugging in Cursor](#summary-debugging-in-cursor)
+- [Interview and Live-Coding Debugging Without AI](#interview-and-live-coding-debugging-without-ai)
+  - [The Constraints](#the-constraints)
+    - [No AI, No LLM, No Internet, Often No Nice Debugger](#no-ai-no-llm-no-internet-often-no-nice-debugger)
+    - [CoderPad, HackerRank, CodeSignal, and Shared IDEs](#coderpad-hackerrank-codesignal-and-shared-ides)
+  - [A Spoken Debugging Loop](#a-spoken-debugging-loop)
+    - [Restate the Prompt, Pick an Example, Trace by Hand](#restate-the-prompt-pick-an-example-trace-by-hand)
+    - [Talk While You Run](#talk-while-you-run)
+  - [LeetCode and DSA in the Editor You Have](#leetcode-and-dsa-in-the-editor-you-have)
+    - [Print Debugging That Does Not Drown You](#print-debugging-that-does-not-drown-you)
+    - [The VS Code Debugger on a Single File](#the-vs-code-debugger-on-a-single-file)
+    - [Example: Debug a Broken Two Sum with Breakpoints Only](#example-debug-a-broken-two-sum-with-breakpoints-only)
+    - [Example: Trace Recursion and a Wrong Base Case](#example-trace-recursion-and-a-wrong-base-case)
+  - [Complexity Bugs](#complexity-bugs)
+    - [When the Answer Is Right and Still Fails](#when-the-answer-is-right-and-still-fails)
+    - [Example: Find the Hidden O(n^2)](#example-find-the-hidden-on2)
+  - [Browser Console Interviews](#browser-console-interviews)
+    - [Debugging DOM and Event Tasks in DevTools Alone](#debugging-dom-and-event-tasks-in-devtools-alone)
+  - [What Interviewers Are Scoring](#what-interviewers-are-scoring)
+    - [Hypothesis, Instrumentation, and Recovery from a Wrong Path](#hypothesis-instrumentation-and-recovery-from-a-wrong-path)
+  - [Summary: Interview and Live-Coding Debugging Without AI](#summary-interview-and-live-coding-debugging-without-ai)
+- [Debugging with Generative AI](#debugging-with-generative-ai)
+  - [What GenAI Is Good At, and What It Invents](#what-genai-is-good-at-and-what-it-invents)
+    - [Hallucinated APIs, Confident Wrong Fixes, and Missing Repro](#hallucinated-apis-confident-wrong-fixes-and-missing-repro)
+    - [The Rule: AI Suggests, DevTools Verifies](#the-rule-ai-suggests-devtools-verifies)
+  - [Gemini in Chrome DevTools](#gemini-in-chrome-devtools)
+    - [AI Assistance from Elements, Network, Sources, and Performance](#ai-assistance-from-elements-network-sources-and-performance)
+    - [Console Insights](#console-insights)
+    - [Example: Debug with AI on a Selected Network Request](#example-debug-with-ai-on-a-selected-network-request)
+  - [Chrome DevTools for Agents](#chrome-devtools-for-agents)
+    - [The Chrome DevTools MCP Server](#the-chrome-devtools-mcp-server)
+    - [Connecting Cursor, Claude Code, Copilot, and Others](#connecting-cursor-claude-code-copilot-and-others)
+    - [Letting an Agent Record a Performance Trace](#letting-an-agent-record-a-performance-trace)
+  - [Chat-Based Debugging Outside the Browser](#chat-based-debugging-outside-the-browser)
+    - [Stack Traces, HAR Files, and Screenshots as Context](#stack-traces-har-files-and-screenshots-as-context)
+    - [Example: Turn a Console Error into a Verified Fix](#example-turn-a-console-error-into-a-verified-fix)
+  - [Privacy, Enterprise, and What You Must Not Paste](#privacy-enterprise-and-what-you-must-not-paste)
+  - [When GenAI Is Forbidden](#when-genai-is-forbidden)
+    - [Interviews, Take-Homes, and Locked-Down Workstations](#interviews-take-homes-and-locked-down-workstations)
+  - [Summary: Debugging with Generative AI](#summary-debugging-with-generative-ai)
+- [Common Challenges and Debugging Tips](#common-challenges-and-debugging-tips)
+  - [Challenge: It Works on My Machine](#challenge-it-works-on-my-machine)
+    - [Debugging Tips](#debugging-tips)
+  - [Challenge: Production-Only Failures](#challenge-production-only-failures)
+    - [Debugging Tips](#debugging-tips-1)
+  - [Challenge: The Bug Disappears When DevTools Is Open](#challenge-the-bug-disappears-when-devtools-is-open)
+    - [Debugging Tips](#debugging-tips-2)
+  - [Challenge: Source Maps Do Not Match](#challenge-source-maps-do-not-match)
+    - [Debugging Tips](#debugging-tips-3)
+  - [Challenge: The AI Fix Did Not Fix It](#challenge-the-ai-fix-did-not-fix-it)
+    - [Debugging Tips](#debugging-tips-4)
+  - [Challenge: Lighthouse Is Green and the Page Is Still Unusable](#challenge-lighthouse-is-green-and-the-page-is-still-unusable)
+    - [Debugging Tips](#debugging-tips-5)
+  - [A 30-Day Debugging Practice Plan](#a-30-day-debugging-practice-plan)
+  - [What Done Looks Like](#what-done-looks-like)
+  - [Summary: Common Challenges and Debugging Tips](#summary-common-challenges-and-debugging-tips)
+- [Additional Resources and Reading Materials](#additional-resources-and-reading-materials)
+  - [Recommended Tools and Software for Debugging](#recommended-tools-and-software-for-debugging)
+    - [Chrome DevTools and Official Docs](#chrome-devtools-and-official-docs)
+    - [Awesome Chrome DevTools](#awesome-chrome-devtools)
+    - [DevTools Extensions](#devtools-extensions)
+    - [Visual Studio Code and Cursor](#visual-studio-code-and-cursor)
+    - [Generative AI Debugging Surfaces](#generative-ai-debugging-surfaces)
+    - [Chrome DevTools Protocol, Puppeteer, and Playwright](#chrome-devtools-protocol-puppeteer-and-playwright)
+  - [Courses and Books That Overlap This One](#courses-and-books-that-overlap-this-one)
+    - [Devtools Pro: Beginner to Expert with Chrome Developer Tools](#devtools-pro-beginner-to-expert-with-chrome-developer-tools)
+    - [Mastering Google Chrome DevTools Course](#mastering-google-chrome-devtools-course)
+    - [Awesome A11Y Book and Course](#awesome-a11y-book-and-course)
+  - [Further Reading and Industry Publications](#further-reading-and-industry-publications)
+    - [Dev Tips and DevTools Tips](#dev-tips-and-devtools-tips)
+  - [Summary: Additional Resources and Reading Materials](#summary-additional-resources-and-reading-materials)
