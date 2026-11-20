@@ -1,4 +1,4 @@
-# 📚 Awesome Debugging Book & Course: Web Debugging with Chrome DevTools (Debugging)
+# 📚 Awesome Debugging Book & Course
 
 ![Promotional image](images/promotional.png)
 
